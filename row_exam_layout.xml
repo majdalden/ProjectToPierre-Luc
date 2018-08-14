@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_question_title_exam"
+                style="@style/text_view_question_style"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="@string/question" />
+
+            <TextView
+                android:id="@+id/tv_question_details_exam"
+                style="@style/text_view_question_style"
+                android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_question__exam"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+
+            android:visibility="gone" />
+        <LinearLayout
+            android:id="@+id/ll_first_question_exam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <RadioButton
+                android:id="@+id/rb_first_question_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:checked="false"
+                android:padding="1dp" />
+
+            <TextView
+                android:id="@+id/tv_first_question_exam"
+                style="@style/text_view_question_style"
+                android:layout_gravity="center_vertical"
+                android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_second_question_exam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <RadioButton
+                android:id="@+id/rb_second_question_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:checked="false"
+                android:padding="1dp" />
+
+            <TextView
+                android:id="@+id/tv_second_question_exam"
+                style="@style/text_view_question_style"
+                android:layout_gravity="center_vertical"
+                android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_third_question_exam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <RadioButton
+                android:id="@+id/rb_third_question_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:checked="false"
+                android:padding="1dp" />
+
+            <TextView
+                android:id="@+id/tv_third_question_exam"
+                style="@style/text_view_question_style"
+                android:layout_gravity="center_vertical"
+                android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_fourth_question_exam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <RadioButton
+                android:id="@+id/rb_fourth_question_exam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:checked="false"
+                android:padding="1dp" />
+
+            <TextView
+                android:id="@+id/tv_fourth_question_exam"
+                style="@style/text_view_question_style"
+                android:layout_gravity="center_vertical"
+                android:text="هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا" />
+
+        </LinearLayout>
+</LinearLayout>

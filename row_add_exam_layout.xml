@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ed_question_row_add_exam"
+        style="@style/edit_text_login_style"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="@string/question_one" />
+
+    <ImageView
+        android:id="@+id/im_question_add_exam"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/but_add_image_row_add_exam"
+        style="@style/button_text_green_text_style"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/add_image" />
+
+    <TextView
+        android:id="@+id/tv_answer_row_add_exam"
+        style="@style/edit_text_login_style"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/answer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_login_shape"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_check_correct_answer_first_row_add_exam"
+            android:layout_width="0dp"
+            android:checked="true"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1" />
+
+        <EditText
+            android:id="@+id/ed_first_answer_row_add_exam"
+            style="@style/edit_text_question_style"
+            android:hint="@string/first_answer" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_login_shape"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_check_correct_answer_second_row_add_exam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:checked="false"
+            android:layout_weight="0.1" />
+
+        <EditText
+            android:id="@+id/ed_second_answer_row_add_exam"
+            style="@style/edit_text_question_style"
+            android:hint="@string/second_answer" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_login_shape"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_check_correct_answer_third_row_add_exam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:checked="false"
+            android:layout_weight="0.1" />
+
+        <EditText
+            android:id="@+id/ed_third_answer_row_add_exam"
+            style="@style/edit_text_question_style"
+            android:hint="@string/third_answer" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_login_shape"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_check_correct_answer_fourth_row_add_exam"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:checked="false"
+            android:layout_weight="0.1" />
+
+        <EditText
+            android:id="@+id/ed_fourth_answer_row_add_exam"
+            style="@style/edit_text_question_style"
+            android:hint="@string/fourth_answer" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
